@@ -274,7 +274,8 @@ public class QueryRunner {
             			boolean execute;
             			execute = queryrunner.ExecuteQuery(i, parmstring);
             			if (execute) {
-            				
+            				String data[][] = queryrunner.GetQueryData();
+            				System.out.println("The query worked");
             			}
             			else {
             				
